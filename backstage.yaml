@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devops-task
+  description: 'Existing repository devops-task onboarded to the Backstage catalog.'
+  annotations:
+    repo: roihunter/devops-task
+  labels:
+    CostCenter: ROIHUNTER
+    Environment: stage
+    Name: devops-task
+    Owner: general-rh
+    Department: ROIHUNTER
+    CreatedBy: Backstage
+spec:
+  type: service
+  owner: general-rh
+  system: roihunter
